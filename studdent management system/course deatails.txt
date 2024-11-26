@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students - Student Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Student List</h1>
+        <nav>
+            <ul>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="attendance.html">Attendance</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>All Students</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Course Enrolled</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>Data Structures</td>
+                    <td>johndoe@example.com</td>
+                    <td><a href="#">View Profile</a></td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>Web Development</td>
+                    <td>janesmith@example.com</td>
+                    <td><a href="#">View Profile</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

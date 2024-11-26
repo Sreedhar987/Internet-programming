@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Student Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Course List</h1>
+        <nav>
+            <ul>
+                <li><a href="students.html">Students</a></li>
+                <li><a href="attendance.html">Attendance</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Available Courses</h2>
+        <ul>
+            <li>Introduction to Computer Science</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Database Management Systems</li>
+            <li>Web Development</li>
+        </ul>
+    </main>
+</body>
+</html>
